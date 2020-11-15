@@ -1,159 +1,134 @@
 /*définition police*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap");
 
 /*body*/
-body
-{
+body {
   max-width: fit-content;
   margin-top: 0px;
 }
 
-#bloc-page 
-{
-  font-family: 'Raleway', sans-serif;
+#bloc-page {
+  font-family: "Raleway", sans-serif;
 }
 
 /*tailles des titres*/
-h1
-{
-  font-size: 1.4em;     
+h1 {
+  font-size: 1.4em;
 }
 
-h2
-{
+h2 {
   font-size: 1em;
 }
 
-h3
-{
+h3 {
   font-size: 0.9em;
   font-weight: lighter;
 }
 /*texture des liens*/
-a
-{
+a {
   text-decoration: none;
   color: black;
 }
 
 /*couleur et tailles deslogos*/
-.fas
-{
-  color: #0065FC;
-  font-size: 12px;  
+.fas {
+  color: #0065fc;
+  font-size: 12px;
 }
 
-.far
-{
-  color: #0065FC;
-  font-size: 12px;  
+.far {
+  color: #0065fc;
+  font-size: 12px;
 }
 
 /*header*/
-header
-{
+header {
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
 
 /*logo reservia*/
-#logo >img
-{
+#logo > img {
   height: 45px;
   padding-top: 20px;
   padding-left: 25px;
   object-fit: cover;
 }
-.navresponsive
-{
+.navresponsive {
   display: none;
 }
 
 /*barre de navigation*/
-.navbarre
-{
+.navbarre {
   min-width: 500px;
 }
 
-.navbarre >ul
-{
+.navbarre > ul {
   display: flex;
   justify-content: space-around;
   margin: auto;
-  color: #0065FC;
+  color: #0065fc;
 }
 
-.navbarre >ul >li
-{
+.navbarre > ul > li {
   width: auto;
   display: block;
   padding-top: 40px;
 }
 
-#hebergements
-{
-  border-top: solid 1px #0065FC;
-  padding-top: 39px;    
+#hebergements {
+  border-top: solid 1px #0065fc;
+  padding-top: 39px;
 }
 
-#hebergements >a
-{
-  color: #0065FC;
+#hebergements > a {
+  color: #0065fc;
 }
 
-#navbold
-{
+#navbold {
   font-weight: bold;
 }
 
 /*section head*/
-.section_head
-{
+.section_head {
   padding-left: 25px;
 }
 
-#title1_section_head
-{
+#title1_section_head {
   margin-bottom: 5px;
-  
 }
 
-#subtitle_section_head
-{
+#subtitle_section_head {
   margin-top: 2px;
   margin-bottom: 20px;
 }
 
 /* section head barre de recherche*/
-.navsearch input 
-{
-    border: none;
-    margin: 10px;
-    padding: 5px;
-    font-size: 1em;
+.navsearch input {
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  font-size: 1em;
 }
 
-.navsearch input::placeholder
-{
+.navsearch input::placeholder {
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 
-.navsearch form 
-{
-  border: solid 1px #F2F2F2;
+.navsearch form {
+  border: solid 1px #f2f2f2;
   border-radius: 10px;
   width: fit-content;
   height: 50px;
 }
 
-.navsearch button
-{
+.navsearch button {
   color: white;
-  background-color: #0065FC;
-  border: 2px #0065FC;
+  background-color: #0065fc;
+  border: 2px #0065fc;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   font-size: 1em;
@@ -163,77 +138,67 @@ header
   font-style: normal;
 }
 
-#logo_loupe
-{
+#logo_loupe {
   display: none;
 }
 
-.navsearch #logo_gps
-{
+.navsearch #logo_gps {
   color: black;
-  background-color: #F2F2F2;
-  border: 19px solid  #F2F2F2;
+  background-color: #f2f2f2;
+  border: 19px solid #f2f2f2;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   width: 80px;
-  height: 50px;   
+  height: 50px;
 }
 
-.navsearch #logo_black
-{
+.navsearch #logo_black {
   color: black;
   font-size: 20px;
 }
 
 /* présentation filtres*/
-.navfiltres
-{
+.navfiltres {
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
   width: auto;
 }
 
-.navfiltres h2
-{
+.navfiltres h2 {
   display: inline-flex;
   font-size: 1.1em;
 }
 
-.navfiltres >ul
-{
+.navfiltres > ul {
   display: inline-flex;
   padding-left: 50px;
 }
 
-.navfiltres a
-{
+.navfiltres a {
   font-size: 1em;
   font-weight: bold;
 }
 
-.all_logos
-{
-  background-color:#DEEBFF;
+.all_logos {
+  background-color: #deebff;
   border-radius: 50%;
   width: 50px;
   height: 37px;
-  border: 1px solid #DEEBFF;
+  border: 1px solid #deebff;
   position: absolute;
-  left:-10px;
+  left: -10px;
   text-align: center;
-  top:50%;
+  top: 50%;
   transform: translateY(-50%);
 }
 
-.logos_filtres
-{
+.logos_filtres {
   font-size: 25px;
   padding-top: 12px;
 }
 
-.filtres
-{
+.filtres {
   display: inline-flex;
   border: solid 2px lightgray;
   border-radius: 30px;
@@ -244,69 +209,59 @@ header
   margin-left: 20px;
 }
 
-.filtres:hover
-{
+.filtres:hover {
   text-decoration: underline;
   color: grey;
 }
 
 /*titres logements disponibles avec logo info*/
-#info
-{
+#info {
   padding-top: 5px;
 }
 
-.circle
-{
+.circle {
   min-width: 20px;
   height: 15px;
   border-radius: 50%;
   text-align: center;
   font-size: 10px;
-  border: 2px solid #F2F2F2;
+  border: 2px solid #f2f2f2;
 }
 
-#h3_filtres
-{
+#h3_filtres {
   display: inline-flex;
   padding-left: 5px;
 }
 
 /*section middle*/
 /*hébergements à Marseille*/
-.sectionmiddle
-{
+.sectionmiddle {
   display: flex;
 }
 
-.sectionmiddle >b
-{
+.sectionmiddle > b {
   font-weight: bold;
 }
 
-.hebergement_a_marseille 
-{
-  background-color: #F2F2F2;
+.hebergement_a_marseille {
+  background-color: #f2f2f2;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
 }
 
-.title_midd
-{
+.title_midd {
   margin-left: 20px;
 }
 
-.container 
-{
+.container {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
   padding: 0px;
 }
 
-.flex
-{
+.flex {
   background-color: white;
   border-radius: 10px;
   padding: 5px;
@@ -317,32 +272,27 @@ header
 }
 
 /*images,titres et logos des vignettes blanches*/
-.imgflex1 
-{
+.imgflex1 {
   height: 100px;
   width: 230px;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
 
-.h_section_mid
-{
+.h_section_mid {
   padding-left: 15px;
   padding-top: 5px;
   margin: auto;
 }
-.hebergement_a_marseille h3
-{
+.hebergement_a_marseille h3 {
   font-size: 0.9em;
 }
 
-.stars_sectionmid
-{
+.stars_sectionmid {
   padding-left: 15px;
   padding-top: 5px;
 }
-.subtitle_midd
-{
+.subtitle_midd {
   font-size: 1.2em;
   padding-left: 20px;
   padding-top: 30px;
@@ -351,9 +301,8 @@ header
 /*aside*/
 /*les plus populaires (titre et logo)*/
 /*aside fond gris*/
-.aside
-{
-  background-color: #F2F2F2;
+.aside {
+  background-color: #f2f2f2;
   margin: 20px;
   padding: 20px 0px;
   padding-bottom: 0px;
@@ -361,8 +310,7 @@ header
   width: 600px;
 }
 
-.aside-title
-{
+.aside-title {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -370,30 +318,26 @@ header
   margin-bottom: 30px;
 }
 
-.aside-title >h2
-{
+.aside-title > h2 {
   margin: 0;
   font-size: 1.4em;
 }
 
-#logo_graph
-{
+#logo_graph {
   font-size: 20px;
   color: black;
-  margin-right: 40px
+  margin-right: 40px;
 }
 
-.container_aside
-{
+.container_aside {
   padding: 0px;
-    width: 300px;
-    margin: 0 auto;
+  width: 300px;
+  margin: 0 auto;
   list-style-type: none;
 }
 
 /*vignettes blanches avec img, titres et sous-titres*/
-.flex_aside 
-{
+.flex_aside {
   background-color: white;
   border-radius: 10px;
   padding: 5px;
@@ -402,13 +346,11 @@ header
   width: 100%;
 }
 
-.flex_aside >a
-{ 
+.flex_aside > a {
   display: flex;
 }
 
-.imgflex2 
-{  
+.imgflex2 {
   height: 110px;
   width: 110px;
   object-fit: cover;
@@ -416,53 +358,45 @@ header
   border-bottom-left-radius: 10px;
 }
 
-.titles
-{
-  margin-left: 20px;  
+.titles {
+  margin-left: 20px;
 }
 
-.h2_aside
-{
+.h2_aside {
   margin-bottom: 5px;
 }
 
-.aside p
-{
+.aside p {
   margin: 0px;
 }
 
-.stars
-{
+.stars {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
 /*activités à Marseille*/
 /*titre*/
-.sectionbottom
-{
-    width: 95%;
+.sectionbottom {
+  width: 95%;
 }
 
-.activites_a_marseille
-{
-  background-color: #F2F2F2;
+.activites_a_marseille {
+  background-color: #f2f2f2;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
   width: 100%;
 }
 
-#h_section_bot
-{
+#h_section_bot {
   margin-left: 30px;
   padding-top: 30px;
   margin-bottom: 0px;
 }
 
 /*container images avec titres*/
-.container2 
-{
+.container2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -471,8 +405,7 @@ header
   height: 550px;
 }
 
-.flex_bottom
-{
+.flex_bottom {
   background-color: white;
   border-radius: 10px;
   padding: 5px;
@@ -483,23 +416,20 @@ header
   box-shadow: 4px 4px 6px grey;
 }
 
-.container2 h2
-{
+.container2 h2 {
   padding-left: 15px;
 }
 
 /*petites images*/
-.imgflexsmall
-{
+.imgflexsmall {
   height: 130px;
   width: 300px;
   border-radius: 10px 10px 0px 0px;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 /*moyennes images*/
-.imgflexmedium
-{
+.imgflexmedium {
   height: 230px;
   width: 300px;
   border-radius: 10px 10px 0px 0px;
@@ -507,37 +437,32 @@ header
 }
 
 /*grandes images*/
-.imgflexlarge
-{
+.imgflexlarge {
   height: 440px;
   width: 300px;
   border-radius: 10px 10px 0px 0px;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 /*footer*/
-.footer
-{ background-color: #F2F2F2;
+.footer {
+  background-color: #f2f2f2;
 }
 
-.container_footer
-{
+.container_footer {
   display: flex;
   justify-content: space-between;
   width: 70%;
 }
 
 /*colonne à propos*/
-.a_propos
-{
+.a_propos {
   margin-top: 20px;
 }
-.footer h2
-{
+.footer h2 {
   margin-left: 35px;
 }
-.a_propos li
-{
+.a_propos li {
   list-style-type: none;
   font-size: 0.9em;
   padding: 5px;
@@ -545,13 +470,11 @@ header
 }
 
 /*colonne nos hébergements*/
-.nos_hebergements
-{
+.nos_hebergements {
   margin-top: 20px;
 }
 
-.nos_hebergements li
-{
+.nos_hebergements li {
   list-style-type: none;
   font-size: 0.9em;
   padding: 5px;
@@ -559,13 +482,11 @@ header
 }
 
 /*colonne assistance*/
-.assistance
-{
+.assistance {
   margin-top: 20px;
 }
 
-.assistance li
-{
+.assistance li {
   list-style-type: none;
   font-size: 0.9em;
   padding: 5px;
@@ -578,333 +499,281 @@ header
 /******************************** smartphones ********************************/
 /*****************************************************************************/
 
-@media all and (max-width: 1024px)
-{ 
-    /*********** taille des titres responsive *********/
-    h1
-    {
-      font-size: 1.3em;
-    }
-    /*************** bloc page responsive **************/
-    #bloc-page
-    {
-      width: 100%;
-    }
+@media all and (max-width: 1024px) {
+  /*********** taille des titres responsive *********/
+  h1 {
+    font-size: 1.3em;
+  }
+  /*************** bloc page responsive **************/
+  #bloc-page {
+    width: 100%;
+  }
 
-    /***************** header responsive ****************/
-    header
-    {
-      flex-direction: column;
-    }
-    #logo >img
-    {
-      padding-top: 5px;
-      padding-left: 0px;
-      height: 45px;
-    }
-    #logo
-    {
-      display: flex;
-      justify-content: space-between;
-      padding-left: 5px;
-      padding-right: 5px;
-    }
+  /***************** header responsive ****************/
+  header {
+    flex-direction: column;
+  }
+  #logo > img {
+    padding-top: 5px;
+    padding-left: 0px;
+    height: 45px;
+  }
+  #logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
-    .navresponsive
-    {
-      display: flex;
-      color: #0065FC;
-      font-weight: bold;
-      padding-top: 25px;
-    }
-    .navbarre
-    {
-      width: 300px;
-      min-width: 0px;
-    }
-    .navbarre >ul
-    {
-      display: inline-flex;
-      padding-left: 0px;
-      width: 100%;
-    }
-    .navbarre >ul >li 
-    {
-    border-bottom: 3px solid #F2F2F2;
+  .navresponsive {
+    display: flex;
+    color: #0065fc;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+  .navbarre {
+    width: 300px;
+    min-width: 0px;
+  }
+  .navbarre > ul {
+    display: inline-flex;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .navbarre > ul > li {
+    border-bottom: 3px solid #f2f2f2;
     padding-right: 40px;
     padding-left: 30px;
     padding-top: 30px;
-    }
+  }
 
-    #hebergements 
-    {
+  #hebergements {
     border-top: none;
-    border-bottom: solid 3px #0065FC;
+    border-bottom: solid 3px #0065fc;
     padding-bottom: 10px;
     padding-top: 30px;
-    
-    }
+  }
 
-    #navbold
-    {
-      display: none;
-    }
+  #navbold {
+    display: none;
+  }
 
-    /***************** <section> head responsive ******************/
-    .section_head 
-    {
-      padding-left: 5px;
-    }
+  /***************** <section> head responsive ******************/
+  .section_head {
+    padding-left: 5px;
+  }
 
-    #title1_section_head 
-    {
-      margin-bottom: 10px;
-    }
+  #title1_section_head {
+    margin-bottom: 10px;
+  }
 
-    #subtitle_section_head 
-    {
-      margin-bottom: 30px;
-    }
+  #subtitle_section_head {
+    margin-bottom: 30px;
+  }
 
-    /************** barre de recherche responsive *****************/
-    .navsearch input 
-    {
-      font-size: 0.9em;
-      width: 160px;
-    }
+  /************** barre de recherche responsive *****************/
+  .navsearch input {
+    font-size: 0.9em;
+    width: 160px;
+  }
 
-    .navsearch form 
-    {
-      height: 50px;
-    }
+  .navsearch form {
+    height: 50px;
+  }
 
-    .navsearch button
-    {
-      display: none;
-    }
+  .navsearch button {
+    display: none;
+  }
 
-    #logo_loupe
-    {
-      display: inline-flex;
-      width: 50px;
-      height: 50px;
-      padding-top: 15px;
-      padding-left: 15px;
-    }
+  #logo_loupe {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
 
-    .fa-search:before 
-    {
-      content: "\f002";
-      color: white;
-      font-size: 1.5em;
-    }
+  .fa-search:before {
+    content: "\f002";
+    color: white;
+    font-size: 1.5em;
+  }
 
-    .navsearch #logo_gps
-    {
-    border: 15px solid  #F2F2F2;
+  .navsearch #logo_gps {
+    border: 15px solid #f2f2f2;
     padding-top: 0px;
     width: 40px;
-    height: 30px;   
-    }
+    height: 30px;
+  }
 
-    .navsearch #logo_black 
-    {
+  .navsearch #logo_black {
     font-size: 15px;
-    }
+  }
 
-    /**************** présentation des filtres responsive *****************/
-    .navfiltres >ul
-    {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 0px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-    }
+  /**************** présentation des filtres responsive *****************/
+  .navfiltres > ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
 
-    .navfiltres
-    {
-      padding-bottom: 10px;
-    }
+  .navfiltres {
+    padding-bottom: 10px;
+  }
 
-    .navfiltres h2 
-    {
-      display: flex;
-      margin-top: 30px;
-    }
+  .navfiltres h2 {
+    display: flex;
+    margin-top: 30px;
+  }
 
-    .filtres
-    {
-      margin: 7px;
-      padding-right: 20px;
-      padding-left: 50px;
-    }
+  .filtres {
+    margin: 7px;
+    padding-right: 20px;
+    padding-left: 50px;
+  }
 
-    .info
-    {
-      display: flex;
-    }
+  .info {
+    display: flex;
+  }
 
-    #h3_filtres 
-    {
-      padding-left: 0px;
-      margin-top: 0px;
-    }
+  #h3_filtres {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
 
-    .circle
-    {
-      margin-right: 5px;
-    }
+  .circle {
+    margin-right: 5px;
+  }
 
-    /***************** <section> middle responsive ***********************/
-    .sectionmiddle
-    {
-      flex-direction: column;
-    }
+  /***************** <section> middle responsive ***********************/
+  .sectionmiddle {
+    flex-direction: column;
+  }
 
-    .flex
-    {
-      margin-bottom: 10px;
-    }
+  .flex {
+    margin-bottom: 10px;
+  }
 
-    .title_midd
-    {
-      margin-left: 10px;
-    }
+  .title_midd {
+    margin-left: 10px;
+  }
 
-    /************* <div> hébergement à Marseille responsive ******************/
-    .hebergement_a_marseille 
-    {
-      margin: 0px;
-      padding: 0px;
-      background-color: white;
-      flex: 1;
-      order: 2;
-    }
+  /************* <div> hébergement à Marseille responsive ******************/
+  .hebergement_a_marseille {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    flex: 1;
+    order: 2;
+  }
 
-    .imgflex1 {
-      height: 90px;
-      width: 300px;
-    }
+  .imgflex1 {
+    height: 90px;
+    width: 300px;
+  }
 
-    .subtitle_midd {
-      padding-left: 10px;
-      padding-bottom: 20px;
-      padding-top: 10px;
-    }
+  .subtitle_midd {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
 
-    /******************** <aside> responsive *******************************/
-    .flex_aside
-    {
-      width: auto;
-      box-shadow: 2px 2px 6px grey;
-      margin-right: 0px;
-      margin-bottom: 40px;
-    }
+  /******************** <aside> responsive *******************************/
+  .flex_aside {
+    width: auto;
+    box-shadow: 2px 2px 6px grey;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
 
-    .aside
-    {
-      margin: 0px;
-      margin-bottom: 30px;
-      padding: 0px;
-      width: 100%;
-      order: 1;
-    }
+  .aside {
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+    width: 100%;
+    order: 1;
+  }
 
-    .aside-title
-    {
-      margin-bottom: 30px;
-      margin-left: 10px;
-      margin-top: 35px;
-      font-size: 1em;
-    }
+  .aside-title {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 35px;
+    font-size: 1em;
+  }
 
-    #logo_graph
-    {
-      margin-right: 15px;
-      padding-top: 3px;
-    }
+  #logo_graph {
+    margin-right: 15px;
+    padding-top: 3px;
+  }
 
-    .h_aside
-    {
-      margin-bottom: 0px;
-    }
+  .h_aside {
+    margin-bottom: 0px;
+  }
 
-    .h2_aside
-    {
-      margin-top: 5px;
-    }
+  .h2_aside {
+    margin-top: 5px;
+  }
 
-    p 
-    {
-      margin: 0px;
-    }
+  p {
+    margin: 0px;
+  }
 
-    /********************** section bottom responsive ***********************/
-    /********************** activités à Marseille responsive ****************/
-    .sectionbottom img
-    {
-      height: 90px;
-      width: 320px;
-    }
+  /********************** section bottom responsive ***********************/
+  /********************** activités à Marseille responsive ****************/
+  .sectionbottom img {
+    height: 90px;
+    width: 320px;
+  }
 
-    #h_section_bot 
-    {
-    margin-left: 0px; 
-    padding-top: 0px; 
-    }
+  #h_section_bot {
+    margin-left: 0px;
+    padding-top: 0px;
+  }
 
-    .activites_a_marseille
-    {
-      margin: 0px;
-      padding: 0px;
-      background-color: white;
-    }
+  .activites_a_marseille {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+  }
 
-    .container2
-    {
-      padding-bottom: 10px;
-      padding: 1px;
-      height: 1000px;
-      display: flex;
-      justify-content: space-around;
-    }
+  .container2 {
+    padding-bottom: 10px;
+    padding: 1px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .flex_bottom
-    {
-      margin-bottom: 15px;
-      margin: 0px;
-      max-width: 290px;
-    }
+  .flex_bottom {
+    margin-bottom: 15px;
+    margin: 0px;
+    max-width: 290px;
+  }
 
-    /************************ footer responsive *************************/
-    .footer
-    {
-      padding-bottom: 20px;
-    }
+  /************************ footer responsive *************************/
+  .footer {
+    padding-bottom: 20px;
+  }
 
-    .container_footer
-    {
-      flex-direction: column;
-      width: auto;
-    }
+  .container_footer {
+    flex-direction: column;
+    width: auto;
+  }
 
-    .footer h2 
-    {
-      margin-left: 30px;
-    }
+  .footer h2 {
+    margin-left: 30px;
+  }
 
-    .container_footer ul
-    {
-      padding-left: 30px;
-    }
+  .container_footer ul {
+    padding-left: 30px;
+  }
 }
 /******************* ajustements responsive ********************/
 /************************** mobile S ***************************/
-@media (max-width: 320px)
-{
-  .sectionbottom img 
-  {
+@media (max-width: 320px) {
+  .sectionbottom img {
     height: 90px;
     width: 290px;
   }
@@ -912,224 +781,176 @@ header
 /******************* ajustements responsive ********************/
 /************************** mobile M ***************************/
 
-@media all and (min-width: 375px)
-{ 
-  .navbarre >ul
-  {
+@media all and (min-width: 375px) {
+  .navbarre > ul {
     padding-left: 20px;
     width: 100%;
   }
-  .navbarre >ul >li
-  {
+  .navbarre > ul > li {
     padding-right: 50px;
     padding-left: 60px;
   }
-  .navsearch input
-  {
+  .navsearch input {
     width: 200px;
   }
-  #h_section_bot 
-  {
+  #h_section_bot {
     margin-left: 10px;
   }
-  .container2
-  {
+  .container2 {
     margin-left: 5px;
     height: 1080px;
   }
-  .flex_bottom
-  {
+  .flex_bottom {
     max-width: 320px;
     margin: 5px;
   }
 }
 /******************* ajustements responsive ********************/
 /*************************** mobile L **************************/
-@media all and (min-width: 425px)
-{
-  .navbarre >ul >li
-  {
+@media all and (min-width: 425px) {
+  .navbarre > ul > li {
     padding-right: 60px;
     padding-left: 50px;
   }
-  .navsearch input
-  {
+  .navsearch input {
     width: 250px;
   }
-  .container2
-  {
+  .container2 {
     margin-left: 30px;
   }
 }
 /******************* ajustements responsive ********************/
 /*************************** tablettes *************************/
-@media all and (min-width: 768px)
-{
-    header
-    {
-      padding-left: 25px;
-    }
-    #logo >img 
-    {
-      height: 55px;
-    }
-    .navbarre 
-    {
+@media all and (min-width: 768px) {
+  header {
+    padding-left: 25px;
+  }
+  #logo > img {
+    height: 55px;
+  }
+  .navbarre {
     width: 650px;
-    }
-    .navbarre >ul >li 
-    {
-      padding-right: 80px;
-      padding-left: 70px;
-    } 
-    .navresponsive 
-    {
-      display: none;
-    }
-    #navbold
-    {
-      display: flex;
-    }
-    .section_head 
-    {
-      padding-left: 25px;
-    }
-    .navsearch form 
-    {
-      margin-left: 30px;
-      height: 60px;
-    }
-    .navsearch #logo_gps 
-    {
-      width: 60px;
-      height: 60px;
-      border: 23px solid #F2F2F2;
-    }
-    #logo_loupe 
-    {
-      display: none;
-    }
-    .navsearch button 
-    {
-      display: inline-block;
-      height: 60px;
-    }
-    .navfiltres >ul 
-    {
-      margin-left: 30px;
-    }
-    .filtres 
-    {
-      margin: 15px;
-      padding-right: 30px;
-      padding-left: 60px;
-    }
-    #h3_filtres 
-    {
-      margin-bottom: 30px;
-    }
-    .container2
-    {
-      display: flex;
-      height: 600px;
-    }
-    .flex_bottom 
-    {
-      min-width: 290px;
-      margin: auto;
-      margin-bottom: 10px;
-    }
-    .sectionbottom img 
-    {
-      width: 290px;
-    }
-    .container_footer 
-    {
-      display: flex;
-      flex-flow: wrap;
-      justify-content: space-around;
-      width: 90%;
-    }
-    .nos_hebergements 
-    {
-      margin-left: 30px;
-    }
-    .assistance 
-    {
-      margin-left: 60px;
-    }
+  }
+  .navbarre > ul > li {
+    padding-right: 80px;
+    padding-left: 70px;
+  }
+  .navresponsive {
+    display: none;
+  }
+  #navbold {
+    display: flex;
+  }
+  .section_head {
+    padding-left: 25px;
+  }
+  .navsearch form {
+    margin-left: 30px;
+    height: 60px;
+  }
+  .navsearch #logo_gps {
+    width: 60px;
+    height: 60px;
+    border: 23px solid #f2f2f2;
+  }
+  #logo_loupe {
+    display: none;
+  }
+  .navsearch button {
+    display: inline-block;
+    height: 60px;
+  }
+  .navfiltres > ul {
+    margin-left: 30px;
+  }
+  .filtres {
+    margin: 15px;
+    padding-right: 30px;
+    padding-left: 60px;
+  }
+  #h3_filtres {
+    margin-bottom: 30px;
+  }
+  .container2 {
+    display: flex;
+    height: 600px;
+  }
+  .flex_bottom {
+    min-width: 290px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .sectionbottom img {
+    width: 290px;
+  }
+  .container_footer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 90%;
+  }
+  .nos_hebergements {
+    margin-left: 30px;
+  }
+  .assistance {
+    margin-left: 60px;
+  }
 }
 /******************* ajustements responsive ********************/
 /**************************** laptop  **************************/
-@media all and (min-width: 1024px)
-{
-  header
-  {
+@media all and (min-width: 1024px) {
+  header {
     flex-flow: wrap;
   }
-  #logo >img 
-  {
-      padding-top: 20px;
+  #logo > img {
+    padding-top: 20px;
   }
-  .navbarre
-  {
+  .navbarre {
     width: 600px;
   }
-  .navbarre >ul
-  {
+  .navbarre > ul {
     display: flex;
     justify-content: space-around;
     margin: auto;
-    border : none;
+    border: none;
   }
-  .navbarre >ul >li
-  {
+  .navbarre > ul > li {
     width: auto;
     display: block;
     padding-top: 40px;
     border-bottom: none;
   }
-  #hebergements
-  {
-    border-top: solid 1px #0065FC;
+  #hebergements {
+    border-top: solid 1px #0065fc;
     padding-top: 39px;
-    border-bottom: none;    
+    border-bottom: none;
   }
-  .navbarre >ul >li 
-  {
-    padding-right: 0px; 
+  .navbarre > ul > li {
+    padding-right: 0px;
     padding-left: 0px;
   }
-  .navsearch form 
-  {
-      margin-left: 0px; 
+  .navsearch form {
+    margin-left: 0px;
   }
-  .navfiltres h2
-  {
+  .navfiltres h2 {
     margin-left: 10px;
   }
-  .title_midd 
-  {
+  .title_midd {
     margin-left: 20px;
   }
-  .subtitle_midd 
-  {
+  .subtitle_midd {
     padding-left: 20px;
   }
-  #h_section_bot 
-  {
+  #h_section_bot {
     margin-left: 20px;
   }
-  .container2
-  {
+  .container2 {
     height: 520px;
   }
-  .flex_bottom
-  {
+  .flex_bottom {
     min-width: 270px;
   }
-  .container_footer
-  {
+  .container_footer {
     justify-content: space-between;
   }
 }
