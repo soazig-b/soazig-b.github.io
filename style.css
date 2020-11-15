@@ -65,7 +65,7 @@ header
   padding-left: 25px;
   object-fit: cover;
 }
-#navresponsive
+.navresponsive
 {
   display: none;
 }
@@ -610,7 +610,7 @@ header
       padding-right: 5px;
     }
 
-    #navresponsive
+    .navresponsive
     {
       display: flex;
       color: #0065FC;
@@ -982,7 +982,7 @@ header
       padding-right: 80px;
       padding-left: 70px;
     } 
-    #navresponsive 
+    .navresponsive 
     {
       display: none;
     }
